@@ -1,4 +1,5 @@
-![Logo](img/logo1.png "Logo")
+
+![PDF-Analyzer](https://github.com/farukalampro/pdf-analysis-streamlit-app/assets/92469073/0adc9c1a-a273-458b-9fb3-ad9b6dba2f4b)
 
 
 **Try the app here:** [PDF Analyzer on Streamlit Cloud](https://mehmetba-pdf-analyze-streamlit-qa-app-5uufsy.streamlit.app/)
