@@ -2,27 +2,27 @@
 ![PDF-Analyzer](https://github.com/farukalampro/pdf-analysis-streamlit-app/assets/92469073/0adc9c1a-a273-458b-9fb3-ad9b6dba2f4b)
 
 
-**Try the app here:** [PDF Analyzer on Streamlit Cloud](https://mehmetba-pdf-analyze-streamlit-qa-app-5uufsy.streamlit.app/)
+**Try the app here:** [PDF Analyzer on Streamlit Cloud](https://pdf-analysis-tool.streamlit.app/)
 
-# PDF Analyzer App
+# PDF Analysis Tool
 
-PDF Analyzer App is a question-answering application that allows users to upload documents (PDF or TXT) and ask questions related to the content of those documents. The app utilizes various retrievers such as similarity search and support vector machines to provide relevant answers.
+The PDF Analysis Tool serves as a question-answering solution, enabling users to upload PDF or TXT files and inquire about the document's contents. This application employs diverse retrievals like similarity search and support vector machines to furnish pertinent responses.
 
 ## Features
 
-- Upload PDF or TXT documents
-- Choose the type of retriever: Similarity Search or Support Vector Machines
-- Generate sample question-answer pairs based on the uploaded documents
-- Ask questions related to the content of the uploaded documents
-- Get answers from the app using the selected retriever method
+- Import PDF or TXT files
+- Select the retriever type: Similarity Search or Support Vector Machines
+- Create example question-answer pairs from the provided documents
+- Pose queries related to the document content
+- Receive responses from the application using the chosen retriever approach
 
 ## Installation
 
 Clone this repository:
 
 ```bash
-git clone https://github.com/mehmetba/pdf-analyze-streamlit.git
-cd pdf-analyze-streamlit
+git clone https://github.com/farukalampro/pdf-analysis-streamlit-app.git
+cd pdf-analysis-streamlit-app
 ```
 
 Create a virtual environment and install the required packages:
@@ -37,7 +37,7 @@ pip install -r requirements.txt
 To run the app, simply execute the following command:
 
 ```bash
-streamlit run qa_app.py
+streamlit run pdf.py
 ```
 
 After running the command, you can access the app through your web browser using the provided URL.
