@@ -113,6 +113,7 @@ def main():
         padding: 0px 0px;
         text-align: center;
     ">
+        <p>Check <a href='https://github.com/farukalampro/pdf-analysis-streamlit-app'>Github Repository</a></p>
     </div>
     """
 
@@ -167,7 +168,7 @@ def main():
         """,
         unsafe_allow_html=True,
     )
-    st.sidebar.image("img/logo1.png")
+    st.sidebar.image("img/logo.png")
 
 
    
@@ -175,8 +176,7 @@ def main():
     st.write(
     f"""
     <div style="display: flex; align-items: center; margin-left: 0;">
-        <h1 style="display: inline-block;">PDF Analyzer</h1>
-        <sup style="margin-left:5px;font-size:small; color: green;">beta</sup>
+        <h1 style="display: inline-block;">PDF Analysis Tool</h1>
     </div>
     """,
     unsafe_allow_html=True,
