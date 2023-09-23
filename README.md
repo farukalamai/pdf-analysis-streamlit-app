@@ -17,36 +17,6 @@ The PDF Analysis Tool serves as a question-answering solution, enabling users to
 - Pose queries related to the document content
 - Receive responses from the application using the chosen retriever approach
 
-## Installation
 
-Clone this repository:
-
-```bash
-git clone https://github.com/farukalampro/pdf-analysis-streamlit-app.git
-cd pdf-analysis-streamlit-app
-```
-
-Create a virtual environment and install the required packages:
-
-```bash
-  python -m venv env
-```
- - For Windows:
-```bash
-  .\env\Scripts\activate
-```
- - For macOS/Linux:
-```bash
-  source env/bin/activate
-```
-
-## Usage
-To run the app, simply execute the following command:
-
-```bash
-streamlit run pdf.py
-```
-
-After running the command, you can access the app through your web browser using the provided URL.
 
 
